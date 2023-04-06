@@ -297,6 +297,21 @@
 
 }
 
+.btn-card{
+    margin: 10px 0;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(240, 88, 0);
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-card:hover{
+    opacity: 0.8;
+}
+
 .card h3{
     color: rgb(107, 107, 107);
     font-size: 16px;
@@ -326,6 +341,7 @@ footer{
     background-color: black;
     width: 100%;
     height: 20vh;
+    margin-top: 100px;
 }
 
 .icons{
