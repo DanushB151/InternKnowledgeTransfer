@@ -297,6 +297,21 @@
 
 }
 
+.btn-card{
+    margin: 10px 0;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(240, 88, 0);
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-card:hover{
+    opacity: 0.8;
+}
+
 .card h3{
     color: rgb(107, 107, 107);
     font-size: 16px;
@@ -321,11 +336,11 @@
 
 /* ************************ */
 
-
 footer{
     background-color: black;
     width: 100%;
-    height: 20vh;
+    height: 60vh;
+    margin-top: 100px;
 }
 
 .icons{
@@ -343,5 +358,51 @@ footer{
 
 footer p{
     color: white;
+    /* text-align: center; */
+}
+.site-footer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-colum h4{
+    color: white;
+}
+.footer-colum{
+    padding: 40px;
+    text-align: start;
+    
+}
+
+.buttom-text{
     text-align: center;
 }
+
+
+.input-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.input button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.input button:hover{
+    opacity: .8;
+}
+
