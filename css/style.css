@@ -377,3 +377,32 @@ footer p{
 .buttom-text{
     text-align: center;
 }
+
+
+.input-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.input button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.input button:hover{
+    opacity: .8;
+}
+
